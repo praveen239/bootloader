@@ -5,5 +5,6 @@
 
 #define __LINUX_IO_STRICT_PROTOTYPES__
 #include <asm/io.h>
+#include <linux/io.h>
 
 #endif

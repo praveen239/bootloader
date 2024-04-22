@@ -6,6 +6,7 @@
 #include <linux/types.h>
 #include <linux/const.h>
 #include <linux/bits.h>
+#include <linux/bitops.h>
 
 #ifdef	__KERNEL__
 #define BITS_PER_TYPE(type)	(sizeof(type) * BITS_PER_BYTE)

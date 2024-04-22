@@ -17,6 +17,7 @@
 #define MAP_DEFAULT	MAP_ARCH_DEFAULT
 
 #include <asm/mmu.h>
+#include <asm/io.h>
 
 #ifndef ARCH_HAS_REMAP
 static inline int arch_remap_range(void *virt_addr, phys_addr_t phys_addr,
