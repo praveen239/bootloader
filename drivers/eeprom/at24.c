@@ -79,7 +79,7 @@ static unsigned io_limit = 128;
  * Specs often allow 5 msec for a page write, sometimes 20 msec;
  * it's important to recover from write timeouts.
  */
-static unsigned write_timeout = 25;
+static unsigned write_timeout = 50;
 
 /* number of bits in driver_data reserved for eeprom byte length */
 #define AT24_SIZE_BYTELEN 5
